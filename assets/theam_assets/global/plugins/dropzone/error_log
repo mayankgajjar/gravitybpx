@@ -1,0 +1,2 @@
+[30-Mar-2016 05:48:30 America/Chicago] PHP Warning:  move_uploaded_file(uploads/logo/160202122121.jpg): failed to open stream: No such file or directory in /home/clayton/public_html/assets/theam_assets/global/plugins/dropzone/upload.php on line 6
+[30-Mar-2016 05:48:30 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpBBWeiB' to 'uploads/logo/160202122121.jpg' in /home/clayton/public_html/assets/theam_assets/global/plugins/dropzone/upload.php on line 6

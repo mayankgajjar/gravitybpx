@@ -1,0 +1,2 @@
+member_id ,first_name ,middle_name,last_name,gender,date_of_birth,height,weight,address,address1,state,postal_code,city,phone,cellphone,work_phone,email,mothers_maiden_name,license_number,occupation,notes
+,John,Jane,Doe,M,17/04/90,"4' 10""",100,123 Main st ,,CA,93730,Fresno,4086474636,4086474636,4086474636,john.doe@gravitybpx.com,Jane,44646646,Agent,

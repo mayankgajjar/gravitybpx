@@ -1,0 +1,21 @@
+.widget_epicwin_widget table, form { margin:0; border: 0; }
+.widget_epicwin_widget table td { padding: 0; }
+.widget_epicwin_widget input { float: left;margin: 12px 0 0 0; }
+.widget_epicwin_widget label { float: left; width: 40px; margin: 5px 0 10px; }
+.widget_epicwin_widget button { float: right; width: 108px; margin-top: 5px; }
+.errors { clear: both; padding-top: 10px; }
+.success {  background-color: #004A8E; text-align: left; color: #fff; float: left; width: auto; padding: 5px; margin: 4px 0 0 2px;}
+.error {
+  color: #ffffff !important;
+  margin-bottom: 21px;
+  text-align: left;
+  margin-top:0px
+}div#unsubscribe { text-align: justify; border: 2px solid #660000; background: #fff; width: 200px; padding: 15px; position: absolute; top: 30%; left: 45%; -moz-border-radius: 10px; -webkit-border-radius: 10px; -moz-box-shadow: 0px 0px 15px #660000; -webkit-box-shadow: 0px 0px 15px #660000; }
+div#unsubscribe p { color: #000000; }
+a.close { border: 1px solid #d40000; background: #660000; color: #fff; padding: 5px; margin-left: 75px; }
+a.close:hover { text-decoration: none; }
+.epicwin-subscription .loading{
+position:relative;
+top:20px;
+right:-20px;
+}

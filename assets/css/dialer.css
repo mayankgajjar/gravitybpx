@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+/*.main-dialer{max-width: 650px;margin: 0 auto;}*/
+.dialer-icon {
+    background: #32c5d2 none repeat scroll 0 0;
+    border-radius: 50%;
+    bottom: 30px;
+    display: block;
+    height: 80px;
+    left: 50%;
+    line-height: 80px;
+    margin: 0 auto 0 -40px;
+    position: fixed;
+    text-align: center;
+    width: 80px;
+	  z-index: 1200;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
+}
+.dialer1{background: #32c5d2;}
+.phone-dialer {position: relative;display: block;padding: 10px;border-radius: 50px;width: 320px;clear: both;height: 70px;}
+.call-out-icon{background: #32c5d2;display: inline-block;height: 70px;width: 70px;text-align: center;line-height: 70px;border-radius: 50%;position: absolute;top: 0;left: 0;}
+.msg-bubbles-icon{background: #32c5d2;display: inline-block;height: 70px;width: 70px;text-align: center;line-height: 70px;border-radius: 50%;position: absolute;top: 0;right: 0;}
+.dialer-input-div input {height: 50px;padding-left: 0;font-size: 18px;border: none;text-align: center;}
+.dialer2,
+.dialer2 .call-out-icon,
+.dialer2 .msg-bubbles-icon{background: #5c9bd1;}
+.dialer3,
+.dialer3 .call-out-icon,
+.dialer3 .msg-bubbles-icon{background: #8e44ad;}
+.dialer-box-wrapper{background: #9ac4e9;border-radius: 50px;max-width: 400px;margin: 0 auto;}
+.dialer_header .profile-image,
+.chat-profile-img .profile-image{width: 60px;height: 60px;line-height: 60px;border-radius: 50%;}
+.dialer_header .profile-image img,
+.chat-profile-img .profile-image img {height: 100%;width: 100%;border-radius: 50%;}
+.dialer_header {background: #5c9bd1;padding: 10px;border-top-left-radius: 40px;border-top-right-radius: 40px;position: relative;}
+.dialer_header .profile{display: inline-block;width: 20%;vertical-align: top;}
+.dialer_header .profile-content{display: inline-block;width: 60%;vertical-align: top;color: #fff;}	
+.dialer_header .profile-content p{margin-bottom:0px;}
+.dialer_header .btn-min{display: inline-block;vertical-align: top;position: absolute;right: 10px;top: 10px;}
+.dialer_header .btn-min a {font-size: 42px;color: #fff;padding: 5px;vertical-align: middle;}
+.dialer-box-wrapper .dialer_footer .phone-dialer {max-width: 400px;}
+.dialer_btn .dialer-btn-container .dialer-btnss{width: 270px;margin: 0 auto;}
+.dialer_btn .dialer-btn-container{background: #fff;margin: 20px;border-radius: 20px;color: #565656;padding: 20px;}
+.dialer_btn .dialer-btn-container .btn.btn-info {background-color: transparent;border-color: transparent;font-size: 25px;height: 60px;width: 85px;color: #565656;box-shadow: none;}
+.dialer_btn .dialer-btn-container .btn.btn-info:nth-child(10){font-size: 40px;vertical-align: middle;line-height: 55px;}
+.dialer_btn .dialer-btn-container a.btn.btn-info span {font-size: 10px;display: block;line-height: 0px;text-transform: uppercase;}
+.dialer_btn .dialer-btn-container .dialer-call-actions ul {padding-left: 0;list-style: none;text-align: center;}
+.dialer_btn .dialer-btn-container .dialer-call-actions ul li span {display: block;color: #fff;text-transform: uppercase;font-size: 11px;padding-top: 5px;}
+.dialer_btn .dialer-btn-container .dialer-call-actions ul li {background: #b7b7b7;height: 70px;width: 70px;display: inline-block;text-align: center;padding: 10px 0px;border-radius: 50px;margin-right: 9px;vertical-align: middle;}
+.dialer_btn .dialer-btn-container .dialer-call-actions ul li:last-child{margin-right:0px;}
+.dialer_btn .dialer-btn-container .dialer-call-actions ul li a{text-decoration:none;}
+.dialer_btn .dialer-btn-container .dialer-call-actions ul li:hover{background: #df444a;}
+.dialer-chatbox-wrapper .dialer_header{background:#8e44ad;}
+.dialer-chatbox-wrapper .dialer_footer .phone-dialer {max-width: 400px;}
+.dialer-chatbox-wrapper {background: #c15deb;border-radius: 50px;max-width: 400px;margin: 0 auto;}
+.dialer-chatbox-wrapper .chat-box{background: #fff;margin: 15px;border-top-left-radius: 40px;border-top-right-radius: 40px;}
+.dialer-chatbox-wrapper .chat-box .chat-box-listing{min-height:300px;}
+.dialer-chatbox-wrapper .chat-box .chat_ul {padding: 0 10px;list-style: none;overflow: auto;height: 300px;border-radius: 40px;}
+.chat-box ul.chat_ul li{margin:20px 0;}
+.chat-box ul.chat_ul li.left-msg .chat-profile-img,
+.chat-box ul.chat_ul li.right-msg .chat-profile-img {display: inline-block;width: 18%;vertical-align:top;}
+.chat-box ul.chat_ul li.left-msg .chat-content, .chat-box ul.chat_ul li.right-msg .chat-content {display: inline-block;width: 80%;padding-top: 5px;}
+.chat-box ul.chat_ul li.right-msg .chat-content p {text-align: right;}
+.chat-box ul.chat_ul li.left-msg .chat-content {color: #5c9bd1;font-weight: 500;font-size: 15px;}
+.chat-box ul.chat_ul li.right-msg .chat-content {color: #8e44ad;font-weight: 500;font-size: 15px;}
+.chat-box .msg_type_input{position:relative;border-top:3px solid #c15deb;}
+.chat-box .msg_type_input input{border:none;height: 40px;}
+.chat-box .msg_type_input a {position: absolute;top: 0;right: 0;line-height: 40px;background: #e5c7f2;padding: 0 10px;}
+.chat-box .msg_type_input a i{color:#8e44ad;font-size: 22px;}
+.profile-popup-wrapper {max-width: 650px;margin: 0 auto;}
+.popup-screen {background: #9ac4e9;border-radius: 50px;height: 560px;margin-left: 1px;}
+.dialer-form{padding: 20px;}
+.dialer-form label {display: inline-block;width: 20%;float: left;color: #fff;font-size: 16px;font-weight: 400;}
+.dialer-form input {display: inline-block;width: 50%;}
+.detail_address .form-group {width: 50%;float: left;}
+.detail_address .form-group label {width: 40%;}
+.detail_address .form-group input {width: 55%;}
+.dialer-form .btn-default {color: #fff;background-color: #32d232;border-color: #32d232;box-shadow: none !important;font-size: 18px;text-transform: uppercase;width: 110px;padding: 5px 0px;}
+.popup-screen .dialer_header .profile{width: 20%;}
+.popup-screen .dialer_header .profile-content{width: 70%;}
+.light_blue,
+.light_blue .call-out-icon,
+.light_blue .msg-bubbles-icon{background:#5c9bd1;-webkit-transition: -webkit-transform .3s ease-out;-o-transition: -o-transform .3s ease-out;transition: transform .5s ease-out;}
+.purple,
+.purple .call-out-icon,
+.purple .msg-bubbles-icon{background:#8e44ad;-webkit-transition: -webkit-transform .3s ease-out;-o-transition: -o-transform .3s ease-out;transition: transform .5s ease-out;}
+.toggle-icon-bar{position: absolute;background: #9ac4e9;top: -30px;height: 70px;width: 70px;text-align: center;line-height: 30px;border-radius: 50%;left: 50%;margin-left: -30px;z-index: -1;}
+/* animation script */
+.animated {animation-duration: 1s;animation-fill-mode: both;}
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+.zoomIn {animation-name: zoomIn;}
+@keyframes zoomOut {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+.zoomOut {animation-name: zoomOut;}
+/*.dialer-icon {position: relative;}*/
+.dialer-icon .phone-dialer {bottom: 0px;left: -120px;position: absolute !important;width: 320px;}
+.call-ui-footer{width: 400px;position: relative;}
+.dialer-box-wrapper,
+.dialer-chatbox-wrapper{bottom: 0;left: 50%;margin-left: -200px;position: fixed;z-index: 1200;}
+.dialer-box-wrapper .dialer_screen{position: relative;}
+.profile-popup-wrapper{bottom: 0;left: 100%;position: absolute;width: 450px;z-index: 1200;}
+.toggle-icon-bar {left: 200px;position: absolute;}
+.toggle-icon{transform: rotate(180deg);}
+.call-field {
+    bottom: 30px;
+    left: 50%;
+    margin-left: -160px;
+    position: fixed;
+	  z-index: 1200;
+  }
+.dialer-dis.dialer-icon{background: #a9a9a9 none repeat scroll 0 0;}
+.dialer-ena.dialer-icon{background: #32c5d2 none repeat scroll 0 0;}
+.dialer_btn .dialer-btn-container .inbound-action > ul > li {  height: 55px;width: 55px;}
+.dialer_btn .dialer-btn-container .inbound-action > ul > li.answer{background: green;}
+.dialer_btn .dialer-btn-container .inbound-action > ul > li.reject{background: red;}
+.dialer_btn .dialer-btn-container .inbound-action > ul > li.answer > a > img{transform: rotate(-43deg);}
+.dialer_btn .dialer-btn-container .inbound-action > ul > li.reject > a > img{transform: rotate(136deg);}

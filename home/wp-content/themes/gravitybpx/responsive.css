@@ -1,0 +1,192 @@
+@media screen and (max-width:1169px) {
+.navigation-top .wrap {
+  width: 100%;
+  padding: 0 15px;
+}
+.main-row-container {
+  width: 100%;
+  padding: 0 15px;
+}
+.section-gapping {
+  padding: 70px 0 50px;
+}
+.software-screens-row {
+  padding-top: 50px;
+}
+ul.social-media-icons {
+  margin: 0 0 15px;
+}
+.quick-contact-row {
+  padding: 50px 0;
+}
+.about-row {
+  padding-top: 50px;
+}
+.product-features-row {
+  padding-bottom: 100px;
+}
+.tp-caption p {
+  font-size: 26px !important;
+}
+.owl-prev, .owl-next {
+  height: 30px;
+  width: 15px;
+}
+.owl-prev {
+  left: -10px;
+}
+.owl-next {
+  right: -10px;
+}
+.client-logo-div {
+  margin-top: 30px;
+}
+.quick-contact-row::before {
+  background: url("images/white-cloud-banner.png") no-repeat scroll 0 100%;
+  background-size: 100% auto;
+}
+.about-row::before, .client-testimonials-row::before, .smart-blog-post-row::before {
+  background:  url("images/cloud-white.png") no-repeat scroll 0 0 ;
+  background-size: 100% auto;
+}
+.product-features-row::before {
+  background:  url("images/cloud-green.png") no-repeat scroll 0 100% ;
+  background-size: 100% auto;
+}
+.software-screens-row::before, .smart-logo-row::before {
+  background:  url("images/cloud-grey.png") no-repeat scroll 0 0 ;
+  background-size: 100% auto;
+}
+}
+
+
+@media screen and (min-width:768px) and (max-width:1169px) {
+
+/*********  header *******/
+.site-header .logo {
+  width: 35%;
+}
+.site-header .menu_wrapper {
+  width: 64%;
+}
+.call_us > p {
+  font-size: 18px;
+  text-align: right;
+}
+.call_us p > a {
+  font-size: 24px;
+}
+/*********  close *******/
+/*********  features *******/
+.product_features .icon {
+  height: 80px;
+  width: 80px;
+}
+.product_features .wpb_wrapper > ul::before {
+  height: 450px;
+  width: 450px;
+}
+.product_features ul li:nth-child(9n+1), .product_features ul li:nth-child(9n+2) {
+  width: 370px;
+}
+.product_features ul li:nth-child(9n+3), .product_features ul li:nth-child(9n+4) {
+  margin-top: 20px;
+  width: 265px;
+}
+.product_features ul li:nth-child(9n+5), .product_features ul li:nth-child(9n+6) {
+  margin-top: 55px;
+  width: 235px;
+}
+.product_features ul li:nth-child(9n+7), .product_features ul li:nth-child(9n+8) {
+  margin-top: 37px;
+  width: 296px;
+}
+.product_features ul li:nth-child(9n) {
+  width: 440px;
+}
+.product_features ul li > p {
+  font-size: 17px;
+  margin: 30px 0 0;
+  text-align: right;
+  width: 58%;
+}
+.product_features ul li:nth-child(2n+2) p {
+  text-align: left;
+}
+
+/*********  close *******/
+/*********  Software Screen *******/
+
+.testimonials-div .testimonials::after {
+  height: 40px;
+  right: 30px;
+  width: 40px;
+}
+.testimonials-div .testimonials::before {
+  height: 40px;
+  left: 30px;
+  width: 40px;
+}
+.testimonials-div .testimonials {
+  padding: 0 50px;
+  text-align: center;
+}
+
+.client-testimonials-row .testi_img {
+  height: 150px;
+  width: 150px;
+}
+.client-testimonials-row .testimonials-img {
+  height: 148px;
+  width: 148px;
+}
+.widget ul li {
+  padding: 0 0 0 35px;
+}
+.textwidget > a {
+  display: block;
+  margin: 40px auto 0;
+  width: 70%;
+}
+.video-row .video {
+  padding: 25px 121px 49px;
+  width: 725px;
+}
+.product_features ul li:nth-child(9n) p {
+  text-align: left;
+}
+.latest-blog-div {
+  padding: 0 15px;
+}
+.product_features ul li .icon::before {
+  background-size: 50px auto;
+  height: 50px;
+  width: 50px;
+}
+.product_features ul li.li_crm .icon::before {
+  background-position: 0 -82px;
+}
+.product_features ul li.li_custom_reporting .icon::before {
+  background-position: 0 -169px;
+}
+.product_features ul li.li_load_management .icon::before {
+  background-position: 0 -256px;
+}
+.product_features ul li.li_visual_dashboard .icon::before {
+  background-position: 0 -342px;
+}
+.product_features ul li.li_commision_tracking .icon::before {
+  background-position: 0 -430px;
+}
+.product_features ul li.li_qoute_apply .icon::before {
+  background-position: 0 -517px;
+}
+.product_features ul li.li_contact_recruting .icon::before {
+  background-position: 0 -604px;
+}
+.product_features ul li.li_full_marketing_suite .icon::before {
+  background-position: 0 -691px;
+}
+/*********  close *******/
+
+}

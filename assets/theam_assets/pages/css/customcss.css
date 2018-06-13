@@ -1,0 +1,138 @@
+.dialer_div.nav-link{color: #efefef;padding: 10px 15px 0;text-align: center;}
+.dialer_div.nav-link i{color: #aab3bb;margin-right: 5px;}
+.dataTables_processing{padding-top: 5px!important;}
+/* */
+#online.loginstatusicon {background-color: green;border: 1px solid;display: inline-block;margin-bottom: 2px;margin-right: 5px;padding: 4px;vertical-align: middle;}
+#busy.loginstatusicon {background-color: red;border: 1px solid;display: inline-block;margin-bottom: 2px;margin-right: 5px;padding: 4px;vertical-align: middle;}
+#lunch.loginstatusicon {background-color: blue;border: 1px solid;display: inline-block;margin-bottom: 2px;margin-right: 5px;padding: 4px;vertical-align: middle;}
+#away.loginstatusicon {background-color: yellow;border: 1px solid;display: inline-block;margin-bottom: 2px;margin-right: 5px;padding: 4px;vertical-align: middle;}
+.slide {margin: 0 auto;}
+.slide .inner {text-align: center;}
+.menu-phone-icon #menu-phone-icon{margin: 0 auto;text-align: center;width: 30px;font-size: 30px;color: white;}
+.menu-phone-icon1{width: 20px;font-size: 30px;}
+.configuration_setting .help-block {color: #3598dc;font-size: 12px;}
+.main_menu-phone-icon{position: fixed;bottom: 0;left: 50%;}
+#slidebottom {bottom: 0;display: none;left: 0;margin: 0 auto;position: fixed;width: 100%;z-index: 9999;}
+#slidebottom .inner {background-color: #45b6af;float: none;margin: 0 auto;padding: 10px;width: 36%;}
+#menu-phone-icon1 {float: left;font-size: 30px;line-height: 35px;margin-right: 10px;transition: all 200ms linear 0s;color: white;}
+#slidebottom .inner .form-control{margin-right: 10px;float: left;width: 80%;}
+#slidebottom .inner #make_call {font-size: 30px;line-height: 35px;color: white;}
+#slidebottom .inner #make_call:hover{color: white; }
+.clear {clear: both;}
+.menu-phone-icon {background-color: #45b6af;bottom: 0;left: 50%;margin: 0 auto;position: absolute;text-align: center;width: 70px;}
+.align-left{text-align: left !important;}
+.btn:not(.btn-sm):not(.btn-lg){line-height: 1.4 !important;}
+.portlet.light .col-md-12,.portlet.light .col-md-6{margin-bottom: 15px;}
+.portlet.light .col-md-6 .control-label.col-md-4 { padding: 0;clear: both;}
+.portlet.light .col-md-6 .col-md-7{margin-bottom: 20px;line-height: 34px;}
+.port-col .form-actions{margin-top: 20px;}
+.portlet.light .col-md-6 .form-control.col-md-7{width: 58.33%;padding: 6px 12px;}
+.dataTable .md-checkbox {margin: 0 auto !important;position: relative;text-align: center;width: 20px;}
+.dataTables_wrapper .dataTables_processing {background: #eef1f5 none repeat scroll 0 0;border: 1px solid #e7ecf1;box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);color: #3f444a;display: inline-block;left: 50%;margin-left: -100px;margin-top: 10px;padding: 7px;text-align: center;vertical-align: middle;width: 200px;}
+.status_name {margin-bottom: 20px !important;}
+#btn-container .phone_char {clear: both;display: block;font-size: 10px;text-transform: uppercase;}
+#btn-container .btn.btn-info {background-color: transparent;border-color: transparent;font-size: 25px;height: 60px;width: 85px;}
+.btn.btn-info.astrik {font-size: 32px !important;}
+#hangup_call .btn-danger,#record .btn-danger {background-color: #ed6b75;border-color: #ea5460;border-radius: 25px !important;color: #fff;height: 35px;margin: 0 auto;width: 35px;}
+.phone_dialer {background-color: #000;clear: right;padding: 22px;}
+.transfer_call.btn.green {border-radius: 25px !important;height: 50px;line-height: 30px !important;margin: 0 auto !important;text-align: center !important;/*width: 50%;*/}
+.transfer_call.btn.green > a {color: #fff;vertical-align: middle;}
+.fa.fa-phone.icon-small {vertical-align: bottom;}
+.fa.fa-phone.icon-large {vertical-align: middle;font-size: 25px;}
+.position {color: #fff;display: inline-block;position: relative;width: 5px;}
+.digit{position:absolute;display:block;width:1em;margin-right: 10px;}
+.countDiv {color: #fff;float: left;line-height: 50px;margin-left: 8px;text-align: center;vertical-align: middle;width: auto;}
+.toggle_call {background-color: #45b6af;border-radius: 6px 6px 0 0 !important;float: right;/*padding: 10px;width: 30%;*/}
+.countmainHours {float: left;}
+.countmainMinutes {float: left;}
+.countmainSeconds {float: left;}
+.countdownright {clear: both;}
+.name_image {color: #fff;float: left;width: 30%;}
+.caller_number {color: #fff;float: left;font-size: 25px;width: 100%;}
+.countmainDays {float: left;}
+.toggle_call > a {color: #fff;}
+.toggle_call > a:hover {color: #707b88}
+/* Optional styles */
+.sidecontentpullout {background-color: #428bca;border-bottom-left-radius: 5px;border-top-left-radius: 5px;color: White;height: 200px;opacity: 1 !important;padding: 15px 20px;z-index: inherit !important;}
+.sidecontentpullout:hover {color: White;}
+.sidecontent {background-color: #ececec;border: 2px solid #428bca;height: auto !important;margin-top: 50px;min-height: 238px !important;opacity: 1 !important;overflow: inherit !important;position: fixed !important;text-align: center;}
+#sidecontent_0.open_popup::before {color: #fff;content: "";font: 14px/1 FontAwesome;left: -25px;position: absolute;top: 170px;z-index: 11 !important;}
+#sidecontent_0.open_popup::after {color: #fff;content: "Show Transfer Call";height: 60px;left: -63px;position: absolute;top: 60px;transform: rotate(-90deg);width: 130px;z-index: 11 !important;}
+#sidecontent_0.close_popup:before{color:#fff;position:absolute;top:170px;left:-25px;content:"\f18e";font: 14px/1 FontAwesome;z-index:11 !important;}
+#sidecontent_0.close_popup::after {color: #fff;content: "Hide Transfer Call ";height: 60px;left: -63px;position: absolute;top: 60px;transform: rotate(-90deg);width: 130px;z-index: 11 !important;}
+.sidecontentpullout::after {bottom: 0;content: "";left: 0;position: absolute;top: 0;width: 40px;z-index: 111;}
+.sidecontentpullout::before {bottom: 0;content: "";left: 0;position: absolute;top: 0;width: 40px;z-index: 111;}
+.sidecontent > div > div {padding: 15px;}
+.sidecontent .silde_content_title{color:#428bca;font-size:14px;}
+.sidecontent .silde_content_desc{color:#32c351;font-size:40px;margin:0 0 10px;line-height:40px;}
+.sidecontent.sticky {position: fixed !important; z-index: 99999 !important;}
+.sidecontentpullout.sticky {position: fixed !important;top: 71px !important;z-index: 99999 !important;}
+/*.btn_phone {bottom: 0;left: 48%;margin: 0 auto;max-width: 320px;position: fixed;text-align: center;width: 100%;z-index: 99999;}*/
+/*.btn_phone #btn-container{bottom: 0;left: 48%;margin: 0 auto;max-width: 320px;position: fixed;text-align: center;width: 100%;z-index: 99999;}*/
+.fa.fa-phone.rotate {transform: rotate(135deg);color: #FF0000;}
+#slidebottom{display: none;}
+#plivo_flash_placeholder{position: absolute !important;}
+#hangup_call .fa.fa-phone {transform: rotate(135deg);vertical-align: middle;margin-bottom: 5px;margin-right: 5px;}
+.leadmanagement-tabs i {float: left;font-size: 20px;line-height: 40px !important;margin-right: 5px;vertical-align: middle;width: 20%;}
+.leadmanagement-tabs .main-tab-title {font-weight: bold;}
+.leadmanagement-tabs span {display: block;float: left;width: 70%;}
+.leadmanagement-tabs.nav li a {display: inline-block;padding: 15px 0 15px 5px;width: 100%;}
+.recent_calls .form-group{width: 100%;}
+.recent_calls .col-md-3 {line-height: 34px;}
+.back-phone {margin-right: 5px;}
+.back-phone i {border-radius: 0;width: 30px;}
+.back-tag i {border-radius: 0;width: 20px;}
+.recent-call-list .mt-comment-img {border: 1px solid #000;border-radius: 18px !important;height: 35px;text-align: center;vertical-align: middle;width: 35px !important;}
+.recent-call-list .list-icon.fa.fa-share {line-height: 32px !important;vertical-align: middle !important;}
+#callcontainer1 input {float: left;width: 84%;}
+.table-responsive.table-scrollable .form-control{width: auto;}
+/*.leadmanagement_row .dataTables_extended_wrapper .table.dataTable{margin: 0px !important;}*/
+.table-scrollable{border: none;}
+.content-6 .table-scrollable .dataTable td .btn-group,.content-6 .table-scrollable .dataTable th .btn-group{position: relative;}
+.content-6 .bootstrap-select .dropdown-toggle:focus{outline: medium none;}
+.content-6 .btn-default.active.focus,
+.content-6 .btn-default.active:focus,
+.content-6 .btn-default.active:hover,
+.content-6 .btn-default.focus:active,
+.content-6 .btn-default:active:focus,
+.content-6 .btn-default:active:hover,
+.content-6 .open > .btn-default.dropdown-toggle.focus,
+.content-6 .open > .btn-default.dropdown-toggle:focus,
+.content-6 .open > .btn-default.dropdown-toggle:hover{background-color: #fff;border-color: #c2cad8;}
+#incoming_callbox{position: fixed; bottom: 0; z-index: 9999;}
+.text-right.time{font-weight: bold; color: #3598DC;}
+/*6 January 2016*/
+#divVideoRemote{border: 1px solid; width: 37%; position: fixed;  bottom: 0px; left: 9px; z-index: 999999;}
+#divVideoLocal{border: 1px solid; width: 10%; height: 28%; position: fixed; bottom: 0; left: 10px;}
+.slide .inner{
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;
+    animation-duration: .35s;
+    -webkit-animation-duration: .35s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+/*.lead-form{left: 68% !important; max-width: 500px !important;}-*/
+.lead-form .phone_dialer .form-horizontal .form-body .form-group label{color: #fff;}
+.btn_phone {
+  bottom: 0;
+  left: 50%;
+  margin: 0 auto 0 -400px;
+  max-width: 800px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 9998;
+}
+.btn_phone #btn-container{
+	display: inline-block;
+	width: 49%;
+}
+.lead-form {
+  bottom: 0 !important;
+  margin-bottom: -43px !important;
+  margin-left: -4px;
+}
+#loading{z-index: 99999999;}
+.page-quick-sidebar-wrapper{z-index: 99999!important;}
+.page-quick-sidebar-toggler{z-index: 999999!important;}
